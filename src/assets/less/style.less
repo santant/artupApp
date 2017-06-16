@@ -274,8 +274,7 @@ body .mint-header{
             margin-top: 0.5175rem;
             margin-left: 0.45rem;
         }
-    }
-    
+    } 
 }
 
 //bbs-select 宝宝书选择
@@ -304,9 +303,7 @@ body .mint-header{
             line-height: 2.23125rem;
             height: 2.03125rem;
             font-size: 0.6875rem;
-            color: #666;
-            
-            
+            color: #666;            
         }
         >dd{
                 width: 100%;
@@ -321,7 +318,18 @@ body .mint-header{
                     margin-bottom: 0.3rem;
                     overflow: hidden;
                     position: relative;
+                    font-size: 0.625rem;
+                    text-align: center;
+                    >b{
+                        display: inline-block;
+                        width: 0.4375rem;
+                        height: 0.4375rem;
+                        border: 1px solid #efefef;
+                        margin-right: 0.2rem;
+                        background: #4170e9;
+                    }
                 }
+                 .dd_slectWidth{width: 5.6875rem !important;}
                  .dd_slect:nth-of-type(4n+4){
                      margin-right: 0;
                  }
@@ -329,5 +337,57 @@ body .mint-header{
                       border: 1px solid #5c5c5c !important;
                  }
             }
+    }
+    
+    
+     //选择的底部
+    .cart_btn{
+        width: 100%;
+        height: 2.9375rem;
+        line-height: 2.9375rem;
+        position: fixed;
+        bottom: 0;left: 0;
+        font-size: 0.71875rem;
+        background: #000;
+        overflow: hidden;
+         padding: 0 0.6875rem;
+        >div{
+            float: left;
+        }
+        //全选
+
+        //价格
+        .price{
+            width: 5.5625rem;
+            height: 100%;
+            float: left;
+           
+            color: #fff;     
+            >span{
+                color: #f84845;
+                font-size: 0.8rem;
+                letter-spacing: 0.1rem;
+                padding-left: 0.2rem;
+                >b{
+                    font-weight: 400;
+                    font-size: 0.6rem;
+                    padding-right: 0.1rem;
+                }
+            }
+        }
+        //结算
+        .crectOrder{
+            width: 4.4375rem;
+            height: 1.875rem;
+            line-height: 1.875rem;
+            box-sizing: border-box;
+            font-size: 0.71875rem;
+            color: #fff;
+            letter-spacing: 0.2rem;
+            text-align: right;
+            margin-top: 0.5175rem;
+            float: right;
+            margin-right:  1.2rem;
+        }
     }
 }
