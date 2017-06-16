@@ -13,6 +13,11 @@ import 'mint-ui/lib/style.css'
 import routerConfig from './router.config.js'
 import App from './App.vue'
 
+
+import loading from './components/component/edit'
+
+Vue.use(loading)
+
 //使用use 引入插件
 Vue.use(MintUI);
 //Vue.use(axios);

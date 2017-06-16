@@ -34,9 +34,7 @@
 				<div class="dd_slect dd_active dd_slectWidth">170mm×235mm</div>
 				<div class="dd_slect dd_slectWidth">170mm×235mm</div>			
 			</dd>
-		</dl>
-		
-		
+		</dl>		
 		<i style="height: 2.9375rem; display: block; width: 100%;"></i>
 		<div class="cart_btn">
 			
