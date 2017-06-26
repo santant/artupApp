@@ -17,6 +17,7 @@ export default {
 
 <style lang="less">
 @import './assets/less/style.less';
+@import './assets/less/sysStyle.less';
 h1, h2 {
   font-weight: normal;
 }

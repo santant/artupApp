@@ -19,7 +19,7 @@
 		    <i class="icon iconfont">&#xe600;</i>
 	</div>
 </template>
-
+	
 <script>
 import { Toast ,Indicator ,MessageBox,Swipe, SwipeItem} from 'mint-ui';	
 import {mapGetters, mapActions} from 'vuex'
@@ -48,10 +48,9 @@ export default {
 //	    ])
 //  },
     mounted(){
-		Api.testBaidu.test('cors/login.do?format=json&username=admin11&password=123456&sessionId=3666a395ea96456dbded009fd14da1a8').then((res)=>{
-		 this.$store.state.mutations.test2 = '222'
-//		 this.$store.state.test2 = res.data;
-		 console.log()
+
+		Api.testBaidu.test2().then((res)=>{
+			console.log(res)
 		})
 	}
 }
